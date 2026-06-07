@@ -1,0 +1,130 @@
+.settings-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+
+.settings-panel {
+  background: #1a1a2e;
+  border: 1px solid #444;
+  border-radius: 8px;
+  width: 340px;
+  max-width: 95vw;
+  padding: 0;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.settings-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid #333;
+}
+
+.settings-header h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #e0e0e0;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 1.4rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+}
+
+.close-btn:hover {
+  color: #e0e0e0;
+}
+
+.settings-panel form {
+  padding: 16px 20px 20px;
+}
+
+.settings-section {
+  margin-bottom: 20px;
+}
+
+.settings-section h3 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #888;
+  margin: 0 0 6px;
+}
+
+.settings-hint {
+  font-size: 0.78rem;
+  color: #666;
+  margin: 0 0 12px;
+}
+
+.settings-panel label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.settings-panel input {
+  background: #0d0d1a;
+  border: 1px solid #444;
+  border-radius: 4px;
+  color: #e0e0e0;
+  padding: 6px 8px;
+  font-size: 0.9rem;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.settings-panel input:focus {
+  border-color: #5577ff;
+}
+
+.settings-error {
+  color: #ff5555;
+  font-size: 0.82rem;
+  margin: 0 0 12px;
+}
+
+.settings-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.settings-actions button {
+  padding: 7px 18px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.settings-actions button[type="button"] {
+  background: #333;
+  color: #ccc;
+}
+
+.settings-actions button[type="submit"] {
+  background: #5577ff;
+  color: #fff;
+}
+
+.settings-actions button[type="submit"]:disabled {
+  background: #334;
+  color: #888;
+  cursor: not-allowed;
+}
