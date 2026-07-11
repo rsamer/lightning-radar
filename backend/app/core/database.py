@@ -61,9 +61,9 @@ class Database:
             cursor.executemany(
                 "INSERT OR IGNORE INTO app_settings VALUES (?, ?)",
                 [
-                    ('target_name',     'Graz'),
-                    ('target_lat',      '47.07'),
-                    ('target_lon',      '15.44'),
+                    ('target_name',     'Vienna'),
+                    ('target_lat',      '48.21'),
+                    ('target_lon',      '16.37'),
                     ('alert_radius_km', '50.0'),
                     ('obs_radius_km',   '500.0'),
                 ]
