@@ -15,9 +15,9 @@ class Config:
     BLITZ_INIT_MSG: dict = field(default_factory=lambda: {"a": 111})
 
     # Target location (user-configurable at runtime)
-    TARGET_NAME: str = "Graz"
-    TARGET_LAT: float = 47.07
-    TARGET_LON: float = 15.44
+    TARGET_NAME: str = "Vienna"
+    TARGET_LAT: float = 48.21
+    TARGET_LON: float = 16.37
 
     # Radii
     OBS_RADIUS_KM: float = 500.0
