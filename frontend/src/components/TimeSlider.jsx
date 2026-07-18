@@ -1,4 +1,3 @@
-import React from 'react';
 import './TimeSlider.css';
 
 function TimeSlider({ isLive, minutesAgo, onChange, onLiveToggle, mapMode, onMapModeChange }) {
