@@ -145,7 +145,7 @@ function App() {
     fetch('/api/settings').then(r => r.json()).then(setSettings).catch(console.error);
     connectWebSocket();
     return () => {
-      connIdRef.current++;
+      connIdRef.current++; // eslint-disable-line react-hooks/exhaustive-deps -- intentional: mutation in cleanup invalidates stale onclose handlers
       clearTimeout(reconnectTimerRef.current);
       clearTimeout(sliderDebounceRef.current);
       wsRef.current?.close();
