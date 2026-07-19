@@ -19,7 +19,6 @@ function SettingsPanel({ settings, onSave, onClose }) {
     }));
   };
 
-  // TODO: use callback!
   const handleSubmit = async (e) => {
     e.preventDefault();
     setSaving(true);
