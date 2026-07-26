@@ -22,8 +22,8 @@ from app.core.utils import calculate_eta, haversine
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
-TARGET_LAT: float = 47.07
-TARGET_LON: float = 15.44
+TARGET_LAT: float = 48.21
+TARGET_LON: float = 16.37
 LAT_KM: float = 111.0  # km per degree of latitude
 
 
