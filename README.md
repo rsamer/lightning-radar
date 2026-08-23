@@ -5,7 +5,7 @@ strikes from the [Blitzortung](https://www.blitzortung.org/) network, groups
 them into storm cells using HDBSCAN density clustering, and visualises movement
 vectors and ETAs on an interactive map.
 
-![Lightning Radar screenshot](docs/screenshot.png)
+![Lightning Radar screenshot](docs/screenshot.jpg)
 
 ## Features
 
